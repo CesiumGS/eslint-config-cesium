@@ -14,5 +14,6 @@ module.exports = {
     "prefer-const": "error",
     "prefer-template": "error",
     "node/no-unsupported-features/node-builtins": "off",
+    "no-process-exit": "off",
   },
 };
