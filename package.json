@@ -19,6 +19,7 @@
     "cesium"
   ],
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 8",
+    "eslint-config-node": ">= 4.1.0"
   }
 }
