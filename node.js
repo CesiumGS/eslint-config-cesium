@@ -10,10 +10,10 @@ module.exports = {
   rules: {
     "global-require": "error",
     "node/no-new-require": "error",
+    "node/no-unsupported-features/node-builtins": "off",
+    "no-process-exit": "off",
     "no-var": "error",
     "prefer-const": "error",
     "prefer-template": "error",
-    "node/no-unsupported-features/node-builtins": "off",
-    "no-process-exit": "off",
   },
 };
