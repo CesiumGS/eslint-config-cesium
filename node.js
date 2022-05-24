@@ -4,10 +4,7 @@ module.exports = {
   extends: "./index.js",
   env: {
     node: true,
-    es6: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2019,
+    es2020: true,
   },
   rules: {
     "global-require": "error",

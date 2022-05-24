@@ -4,10 +4,9 @@ module.exports = {
   extends: "./index.js",
   env: {
     browser: true,
-    es6: true,
+    es2020 : true,
   },
   parserOptions: {
-    ecmaVersion: 2015,
     sourceType: "module",
   },
   rules: {
