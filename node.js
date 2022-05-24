@@ -13,5 +13,6 @@ module.exports = {
     "no-var": "error",
     "prefer-const": "error",
     "prefer-template": "error",
+    "node/no-unsupported-features/node-builtins": "off",
   },
 };
