@@ -4,7 +4,7 @@ module.exports = {
   extends: "./index.js",
   env: {
     browser: true,
-    es2020 : true,
+    es2020: true,
   },
   parserOptions: {
     sourceType: "module",

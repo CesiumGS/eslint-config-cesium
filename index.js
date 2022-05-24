@@ -2,24 +2,14 @@
 
 module.exports = {
   extends: "eslint:recommended",
-  globals: {
-    DataView: "readonly",
-    ArrayBuffer: "readonly",
-    Float32Array: "readonly",
-    Float64Array: "readonly",
-    Int16Array: "readonly",
-    Int32Array: "readonly",
-    Int8Array: "readonly",
-    Uint16Array: "readonly",
-    Uint32Array: "readonly",
-    Uint8Array: "readonly",
-    Uint8ClampedArray: "readonly",
+  env: {
+    es2020: true,
   },
   rules: {
     "comma-dangle": ["error", "never"],
-    "curly": "error",
+    curly: "error",
     "block-scoped-var": "error",
-    "eqeqeq": "error",
+    eqeqeq: "error",
     "eol-last": ["error", "always"],
     "guard-for-in": "error",
     "new-cap": ["error", { properties: false }],
@@ -44,10 +34,10 @@ module.exports = {
     "no-unused-vars": ["error", { vars: "all", args: "all" }],
     "no-useless-escape": "off",
     "no-use-before-define": ["error", "nofunc"],
-    "quotes": ["error", "single", { avoidEscape: true }],
+    quotes: ["error", "single", { avoidEscape: true }],
     "require-atomic-updates": "off",
-    "semi": "error",
-    "strict": "error",
+    semi: "error",
+    strict: "error",
     "wrap-iife": ["error", "any"],
   },
 };

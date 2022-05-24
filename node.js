@@ -4,7 +4,7 @@ module.exports = {
   extends: "./index.js",
   env: {
     node: true,
-    es2020: true,
+    es2020: true
   },
   rules: {
     "global-require": "error",
