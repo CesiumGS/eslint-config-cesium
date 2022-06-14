@@ -3,8 +3,7 @@
 module.exports = {
   extends: "./index.js",
   env: {
-    browser: true,
-    es2020: true,
+    browser: true
   },
   parserOptions: {
     sourceType: "module",

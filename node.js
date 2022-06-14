@@ -4,7 +4,6 @@ module.exports = {
   extends: ["./index.js", "plugin:node/recommended"],
   env: {
     node: true,
-    es2020: true,
   },
   plugins: ["node"],
   rules: {

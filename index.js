@@ -16,6 +16,7 @@ module.exports = {
     "no-alert": "error",
     "no-caller": "error",
     "no-console": "off",
+    "no-duplicate-imports": "error",
     "no-else-return": "error",
     "no-extend-native": "error",
     "no-extra-boolean-cast": "off",
