@@ -6,7 +6,7 @@ module.exports = {
     es2020: true,
   },
   rules: {
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": ["error", "only-multiline"],
     curly: "error",
     "block-scoped-var": "error",
     eqeqeq: "error",
@@ -35,7 +35,7 @@ module.exports = {
     "no-unused-vars": ["error", { vars: "all", args: "all" }],
     "no-useless-escape": "off",
     "no-use-before-define": ["error", "nofunc"],
-    quotes: ["error", "single", { avoidEscape: true }],
+    quotes: ["error", "double", { avoidEscape: true }],
     "require-atomic-updates": "off",
     semi: "error",
     strict: "error",
