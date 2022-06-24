@@ -5,6 +5,9 @@ module.exports = {
   env: {
     node: true,
   },
+  parserOptions: {
+    ecmaVersion: 2020
+  },
   plugins: ["node"],
   rules: {
     "global-require": "error",
