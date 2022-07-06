@@ -1,20 +1,18 @@
 "use strict";
 
 module.exports = {
-  extends: "./index.js",
+  extends: ["./index.js", "plugin:node/recommended"],
   env: {
     node: true,
-    es6: true,
   },
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 2020
   },
+  plugins: ["node"],
   rules: {
     "global-require": "error",
-    "no-buffer-constructor": "error",
-    "no-new-require": "error",
-    "no-var": "error",
-    "prefer-const": "error",
-    "prefer-template": "error",
+    "node/no-new-require": "error",
+    "node/no-unsupported-features/node-builtins": "off",
+    "no-process-exit": "off",
   },
 };
