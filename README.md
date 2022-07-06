@@ -8,7 +8,7 @@ The official [shareable ESLint config](http://eslint.org/docs/developer-guide/sh
 
 We export three ESLint configurations.
 
-### cesium
+### eslint-config-cesium
 
 This config contains basic Cesium syntax and style config, from which `browser` and `node` extend. Extends `eslint:recommended` and `prettier` with additional rules.
 
