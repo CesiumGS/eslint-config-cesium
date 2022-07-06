@@ -1,5 +1,11 @@
 # Change Log
 
+### 9.0.0 - 2022-06-07
+
+- Update ECMA version for all configurations to 2020
+- Adds `prettier` to all configurations
+- Adds `eslint-plugin-node/recommended` rules for Node configuration
+
 ### 8.0.1 - 2019-10-23
 
 - [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins) should be disabled for both Node and Browser.
