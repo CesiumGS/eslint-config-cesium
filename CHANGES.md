@@ -1,5 +1,9 @@
 # Change Log
 
+### 9.0.1 - 2023-01-26
+
+- Update ECMA version for node configurations to 2023 to match Node 18 LTS.
+
 ### 9.0.0 - 2022-06-07
 
 - Update ECMA version for all configurations to 2020
