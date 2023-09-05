@@ -1,5 +1,9 @@
 # Change Log
 
+### 10.0.1 - 2023-09-05
+
+- Fix bad node configuration that was still relying on `eslint-plugin-node`.
+
 ### 10.0.0 - 2023-09-05
 
 - Bump `eslint-config-prettier` peer dependency to `^9.0.0`.

@@ -8,7 +8,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2023,
   },
-  plugins: ["node"],
+  plugins: ["n"],
   rules: {
     "global-require": "error",
     "n/no-new-require": "error",
