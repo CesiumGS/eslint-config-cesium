@@ -7,7 +7,7 @@ module.exports = {
   },
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2020
+    ecmaVersion: 2020,
   },
   rules: {
     "no-implicit-globals": "error",

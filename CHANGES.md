@@ -1,5 +1,10 @@
 # Change Log
 
+### 10.0.0 - 2023-09-05
+
+- Bump `eslint-config-prettier` peer dependency to `^9.0.0`.
+- Switch from `eslint-plugin-node` to `eslint-plugin-n`, since it is maintained.
+
 ### 9.0.1 - 2023-01-26
 
 - Update ECMA version for node configurations to 2023 to match Node 18 LTS.
