@@ -1,5 +1,9 @@
 # Change Log
 
+### 10.0.2 - 2023-12-05
+
+- Fix node configuration referring to deprecated eslint rules that were moved to `plugin/n`
+
 ### 10.0.1 - 2023-09-05
 
 - Fix bad node configuration that was still relying on `eslint-plugin-node`.

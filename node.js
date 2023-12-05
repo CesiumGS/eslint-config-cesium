@@ -10,9 +10,9 @@ module.exports = {
   },
   plugins: ["n"],
   rules: {
-    "global-require": "error",
+    "n/global-require": "error",
     "n/no-new-require": "error",
     "n/no-unsupported-features/node-builtins": "off",
-    "no-process-exit": "off",
+    "n/no-process-exit": "off",
   },
 };
