@@ -18,7 +18,7 @@ For use in browser environments.
 
 ### eslint-config-cesium/node
 
-For use in Node.js environments.
+For use in Node.js environments. Extends `plugin/n:recommended`
 
 ---
 
