@@ -1,5 +1,12 @@
 # Change Log
 
+### 11.0.0 - 2024-04-30
+
+- Updated to [flat config files](https://eslint.org/docs/latest/use/configure/migration-guide#predefined-and-shareable-configs). `recommended`, `browser`, and `node` configurations are now accessible from the `config` object.
+- `node` configuration have been updated to the new `sourceType` `commonjs` instead of `script`.
+- Bump `eslint` peer dependency to `^9.0.0`
+- Bump `eslint-plugin-n` peer dependency to `17.0.0`
+
 ### 10.0.2 - 2023-12-05
 
 - Fix node configuration referring to deprecated eslint rules that were moved to `plugin/n`
