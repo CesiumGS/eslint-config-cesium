@@ -1,5 +1,9 @@
 # Change Log
 
+### 11.0.1 - 2024-05-20
+
+- Fix inadvertent `globals` peer dependency version of `15.0.0` instead of `^15.0.0`.
+
 ### 11.0.0 - 2024-04-30
 
 - Updated to [flat config files](https://eslint.org/docs/latest/use/configure/migration-guide#predefined-and-shareable-configs). `recommended`, `browser`, and `node` configurations are now accessible from the `config` object.
