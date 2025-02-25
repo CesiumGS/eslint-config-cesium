@@ -19,11 +19,11 @@
     "cesium"
   ],
   "peerDependencies": {
-    "eslint": "^9.0.0",
     "@eslint/js": "^9.0.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-n": "^17.0.0",
-    "globals": "^15.0.0"
+    "globals": "^16.0.0"
   },
   "type": "commonjs",
   "engines": {
