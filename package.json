@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-cesium",
+  "name": "@cesium/eslint-config",
   "version": "12.0.0",
   "description": "ESLint shareable configs for Cesium",
   "homepage": "http://cesium.com/",
