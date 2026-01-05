@@ -1,4 +1,4 @@
-# eslint-config-cesium
+# @cesium/eslint-config
 
 The official [shareable ESLint config](http://eslint.org/docs/developer-guide/shareable-configs) for the [Cesium](https://cesium.com/) ecosystem.
 
@@ -6,14 +6,14 @@ The official [shareable ESLint config](http://eslint.org/docs/developer-guide/sh
 
 We export three ESLint configurations.
 
-### eslint-config-cesium default
+### Default
 
 This config contains basic Cesium syntax and style config, from which `browser` and `node` extend. Extends `@eslint/js` recommended rules and `eslint-config/prettier` with additional rules.
 
 [`eslint.config.js`](https://eslint.org/docs/latest/use/configure/configuration-files)
 
 ```js
-import configCesium from "eslint-config-cesium";
+import configCesium from "@cesium/eslint-config";
 
 exports default [
     // Apply recommended rules to all files
@@ -24,19 +24,19 @@ exports default [
         rules: {
             ...configCesium.configs.recommended.rules,
             "no-unused-vars": "off"
-        } 
+        }
     },
 ]
 ```
 
-### eslint-config-cesium/browser
+### Browser
 
 For use in browser environments.
 
 [`eslint.config.js`](https://eslint.org/docs/latest/use/configure/configuration-files)
 
 ```js
-import configCesium from "eslint-config-cesium";
+import configCesium from "@cesium/eslint-config";
 
 exports default [
     // Apply recommended rules to all files
@@ -48,19 +48,19 @@ exports default [
         rules: {
             ...configCesium.configs.browser.rules,
             "no-unused-vars": "off"
-        } 
+        }
     },
 ]
 ```
 
-### eslint-config-cesium/node
+### Node
 
 For use in Node.js environments. Extends `plugin/n:recommended`
 
 [`eslint.config.js`](https://eslint.org/docs/latest/use/configure/configuration-files)
 
 ```js
-import configCesium from "eslint-config-cesium";
+import configCesium from "@cesium/eslint-config";
 
 exports default [
     // Apply recommended rules to all files
@@ -72,7 +72,7 @@ exports default [
         rules: {
             ...configCesium.configs.node.rules,
             "no-unused-vars": "off"
-        } 
+        }
     },
 ]
 ```
