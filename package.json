@@ -31,9 +31,13 @@
   },
   "scripts": {
     "eslint": "eslint \"./**/*.*js\" --cache --quiet",
+    "prettier": "prettier --write \"**/*\""
   },
   "type": "commonjs",
   "engines": {
     "node": ">=18.18.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
