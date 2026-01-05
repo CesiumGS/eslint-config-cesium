@@ -1,0 +1,13 @@
+
+# Ignore everything
+*
+
+# Unignore code files
+!.github/**/
+!.vscode/**/
+
+!**/*.js
+!**/*.cjs
+!**/*.md
+!**/*.ts
+!**/*.tsx

@@ -10,8 +10,8 @@ module.exports = {
     sourceType: "module",
     ecmaVersion: 2020,
     globals: {
-      ...globals.browser
-    }
+      ...globals.browser,
+    },
   },
   rules: {
     ...baseConfig.rules,
