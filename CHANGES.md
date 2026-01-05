@@ -1,5 +1,9 @@
 # Change Log
 
+### 13.0.0 - 2026-01-05
+
+- Update `globals` to peer dependency version `^17.0.0`
+
 ### 11.0.1 - 2024-05-20
 
 - Fix inadvertent `globals` peer dependency version of `15.0.0` instead of `^15.0.0`.
