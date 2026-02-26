@@ -8,7 +8,7 @@ const recommended = js.configs.recommended;
 module.exports = {
   ...recommended,
   ...eslintConfigPrettier,
-  name: "cesium/recommended-",
+  name: "cesium/recommended",
   rules: {
     ...recommended.rules,
     ...eslintConfigPrettier.rules,

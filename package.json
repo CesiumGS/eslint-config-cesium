@@ -1,6 +1,6 @@
 {
   "name": "@cesium/eslint-config",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "description": "ESLint shareable configs for Cesium",
   "homepage": "http://cesium.com/cesiumjs/",
   "license": "Apache-2.0",
@@ -23,11 +23,11 @@
     "url": "git+https://github.com/CesiumGS/eslint-config-cesium.git"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.0.0",
-    "eslint": "^9.0.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-n": "^17.0.0",
-    "globals": "^17.0.0"
+    "eslint-plugin-n": "^17.24.0",
+    "globals": "^17.3.0"
   },
   "scripts": {
     "eslint": "eslint \"./**/*.*js\" --cache --quiet",
@@ -35,9 +35,9 @@
   },
   "type": "commonjs",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=20.19.0"
   },
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.1"
   }
 }
