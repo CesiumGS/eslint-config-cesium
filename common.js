@@ -1,7 +1,7 @@
 "use strict";
 
 const js = require("@eslint/js");
-const eslintConfigPrettier = require("eslint-config-prettier");
+const eslintConfigPrettier = require("eslint-config-prettier/flat");
 
 const recommended = js.configs.recommended;
 

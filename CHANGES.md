@@ -1,8 +1,9 @@
 # Change Log
 
-## 14.0.0 - 2026-03-01
+## 14.0.0 - 2026-04-24
 
-- Update `eslint` peer dependency to `^10.0.0` and corresponding plugins
+- Update `eslint` peer dependency to `^10.0.0` and corresponding plugins. Please check the [eslint v10 migration guide](https://eslint.org/docs/latest/use/migrate-to-10.0.0) for more info
+  - The most disruptive change is the [new rules](https://eslint.org/docs/latest/use/migrate-to-10.0.0#-eslintrecommended-has-been-updated) `no-unassigned-vars`, `no-useless-assignment`, `preserve-caught-error`
 - Updated the ECMA Version for browser recommendations to `ES2022` <https://github.com/CesiumGS/cesium/issues/12623>
 - Bumped minimum required Node version to `v20.19.0` which is the [minimum supported](https://eslint.org/docs/latest/use/migrate-to-10.0.0#-nodejs--v2019-v21-v23-are-no-longer-supported) by ESLint in `v10`
 
