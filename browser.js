@@ -8,7 +8,7 @@ module.exports = {
   name: "cesium/browser",
   languageOptions: {
     sourceType: "module",
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     globals: {
       ...globals.browser,
     },

@@ -1,14 +1,14 @@
 "use strict";
 
 const js = require("@eslint/js");
-const eslintConfigPrettier = require("eslint-config-prettier");
+const eslintConfigPrettier = require("eslint-config-prettier/flat");
 
 const recommended = js.configs.recommended;
 
 module.exports = {
   ...recommended,
   ...eslintConfigPrettier,
-  name: "cesium/recommended-",
+  name: "cesium/recommended",
   rules: {
     ...recommended.rules,
     ...eslintConfigPrettier.rules,

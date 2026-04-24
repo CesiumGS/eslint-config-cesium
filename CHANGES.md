@@ -1,89 +1,96 @@
 # Change Log
 
-### 13.0.0 - 2026-01-05
+## 14.0.0 - 2026-04-24
+
+- Update `eslint` peer dependency to `^10.0.0` and corresponding plugins. Please check the [eslint v10 migration guide](https://eslint.org/docs/latest/use/migrate-to-10.0.0) for more info
+  - The most disruptive change is the [new rules](https://eslint.org/docs/latest/use/migrate-to-10.0.0#-eslintrecommended-has-been-updated) `no-unassigned-vars`, `no-useless-assignment`, `preserve-caught-error`
+- Updated the ECMA Version for browser recommendations to `ES2022` <https://github.com/CesiumGS/cesium/issues/12623>
+- Bumped minimum required Node version to `v20.19.0` which is the [minimum supported](https://eslint.org/docs/latest/use/migrate-to-10.0.0#-nodejs--v2019-v21-v23-are-no-longer-supported) by ESLint in `v10`
+
+## 13.0.0 - 2026-01-05
 
 - Update `globals` to peer dependency version `^17.0.0`
 
-### 11.0.1 - 2024-05-20
+## 11.0.1 - 2024-05-20
 
 - Fix inadvertent `globals` peer dependency version of `15.0.0` instead of `^15.0.0`.
 
-### 11.0.0 - 2024-04-30
+## 11.0.0 - 2024-04-30
 
 - Updated to [flat config files](https://eslint.org/docs/latest/use/configure/migration-guide#predefined-and-shareable-configs). `recommended`, `browser`, and `node` configurations are now accessible from the `config` object.
 - `node` configuration have been updated to the new `sourceType` `commonjs` instead of `script`.
 - Bump `eslint` peer dependency to `^9.0.0`
 - Bump `eslint-plugin-n` peer dependency to `17.0.0`
 
-### 10.0.2 - 2023-12-05
+## 10.0.2 - 2023-12-05
 
 - Fix node configuration referring to deprecated eslint rules that were moved to `plugin/n`
 
-### 10.0.1 - 2023-09-05
+## 10.0.1 - 2023-09-05
 
 - Fix bad node configuration that was still relying on `eslint-plugin-node`.
 
-### 10.0.0 - 2023-09-05
+## 10.0.0 - 2023-09-05
 
 - Bump `eslint-config-prettier` peer dependency to `^9.0.0`.
 - Switch from `eslint-plugin-node` to `eslint-plugin-n`, since it is maintained.
 
-### 9.0.1 - 2023-01-26
+## 9.0.1 - 2023-01-26
 
 - Update ECMA version for node configurations to 2023 to match Node 18 LTS.
 
-### 9.0.0 - 2022-06-07
+## 9.0.0 - 2022-06-07
 
 - Update ECMA version for all configurations to 2020
 - Adds `prettier` to all configurations
 - Adds `eslint-plugin-node/recommended` rules for Node configuration
 
-### 8.0.1 - 2019-10-23
+## 8.0.1 - 2019-10-23
 
 - [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins) should be disabled for both Node and Browser.
 
-### 8.0.0 - 2019-10-23
+## 8.0.0 - 2019-10-23
 
 - Update Browser ecmaVersion to '2015'.
 - Update Browser to use ES6 modules by default.
 - Disable default rule [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins) because it's not useful.
 - Disable default rule [require-atomic-updates](https://eslint.org/docs/rules/require-atomic-updates) because it generates false positives.
 
-### 7.0.0 - 2019-05-03
+## 7.0.0 - 2019-05-03
 
 - Update Node ecmaVersion to '2019'.
 - Enable [no-tabs](https://eslint.org/docs/rules/no-tabs).
 - Enabled [no-restricted-globals](https://eslint.org/docs/rules/no-restricted-globals) for jasmine `fit` and `fdescribe`.
 
-### 6.0.1 - 2019-01-23
+## 6.0.1 - 2019-01-23
 
 - Allow ES6 global variables in Node.js code.
 
-### 6.0.0 - 2018-05-01
+## 6.0.0 - 2018-05-01
 
 - Upgrade to eslint 5.x and it's new default rules.
 - Set ecmaVersion to 2017 for Node.js code.
 - Enable [no-var](https://eslint.org/docs/rules/no-var) in Node.js code.
 - Enable [prefer-const](https://eslint.org/docs/rules/prefer-const) in Node.js code.
 
-### 5.0.0 - 2018-05-01
+## 5.0.0 - 2018-05-01
 
 - Enable [eol-last](https://eslint.org/docs/rules/eol-last).
 
-### 4.0.0 - 2018-03-05
+## 4.0.0 - 2018-03-05
 
 - Enable [no-multiple-empty-lines](https://eslint.org/docs/rules/no-multiple-empty-lines).
 
-### 3.0.0 - 2017-11-12
+## 3.0.0 - 2017-11-12
 
 - Set default `ecmaVersion` to 6 for Node.js.
 - Enable [comma-dangle](https://eslint.org/docs/rules/comma-dangle).
 
-### 2.0.1 - 2017-06-28
+## 2.0.1 - 2017-06-28
 
 - Remove [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html) peerDependency from `browser` config.
 
-### 2.0.0 - 2017-06-27
+## 2.0.0 - 2017-06-27
 
 - Enable [no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal).
 - Enable [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define).
@@ -103,6 +110,6 @@
   - [no-buffer-constructor](http://eslint.org/docs/rules/no-buffer-constructor)
   - [no-new-require](http://eslint.org/docs/rules/no-new-require)
 
-### 1.0.0 - 2017-06-12
+## 1.0.0 - 2017-06-12
 
 - Initial release.

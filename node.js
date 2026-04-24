@@ -20,5 +20,13 @@ module.exports = {
     "n/no-new-require": "error",
     "n/no-unsupported-features/node-builtins": "off",
     "n/no-process-exit": "off",
+    "n/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        // Without setting this the error for preserve-caught-error from eslint/js cannot be fixed
+        version: ">=20.0.0",
+        ignores: [],
+      },
+    ],
   },
 };
